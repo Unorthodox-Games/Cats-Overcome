@@ -7,6 +7,8 @@ public class Statistic : MonoBehaviour {
     //UnusedPoints
     float PlayedTime = 0.0f;
 
+    // ahaha
+
 	// Use this for initialization
 	void Start () {
 	
