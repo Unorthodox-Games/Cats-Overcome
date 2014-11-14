@@ -3,15 +3,22 @@ using System.Collections;
 
 public class Character : MonoBehaviour {
 
+    #region "Attributes"
+
     string Username = "Meow Clawson";
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    #endregion
+
+    #region "Constructor/Init"
+
+    #endregion
+
+    #region "Events"
+
+    #endregion
+
+    #region "Methods"
+
+    #endregion
+
 }
