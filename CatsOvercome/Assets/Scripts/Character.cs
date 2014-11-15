@@ -5,11 +5,17 @@ public class Character : MonoBehaviour {
 
     #region "Attributes"
 
-    string Username = "Meow Clawson";
+    public string Username = "Meow Clawson";
+    public Statistic statistic = null;
 
     #endregion
 
     #region "Constructor/Init"
+
+    public Character()
+    {
+
+    }
 
     #endregion
 

@@ -3,13 +3,31 @@ using System.Collections;
 
 public class Agility : Characteristic {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    #region "Attributes"
+
+
+
+    #endregion
+
+    #region "Constructor/Init"
+
+    public Agility()
+    {
+
+    }
+
+    #endregion
+
+    #region "Events"
+
+
+
+    #endregion
+
+    #region "Methods"
+
+
+
+    #endregion
+
 }

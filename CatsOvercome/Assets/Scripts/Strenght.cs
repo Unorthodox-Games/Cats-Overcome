@@ -1,15 +1,33 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Strenght : Characteristic {
+public class Strenght : Characteristic
+{
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    #region "Attributes"
+
+
+
+    #endregion
+
+    #region "Constructor/Init"
+
+    public Strenght()
+    {
+
+    }
+
+    #endregion
+
+    #region "Events"
+
+
+
+    #endregion
+
+    #region "Methods"
+
+
+
+    #endregion
 }
