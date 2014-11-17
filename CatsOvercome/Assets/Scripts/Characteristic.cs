@@ -19,6 +19,8 @@ public class Characteristic : MonoBehaviour
     }
 
     public CaracteristicLevel level = null;
+    public string Label = "";
+    public Color Color;
 
     #endregion
 
@@ -26,7 +28,8 @@ public class Characteristic : MonoBehaviour
 
     public Characteristic()
     {
-        
+        // set default
+        this.Color = Color.black;
     }
 
     #endregion
