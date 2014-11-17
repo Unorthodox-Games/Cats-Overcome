@@ -7,7 +7,7 @@ public class Statistic : MonoBehaviour
     #region Attributes
 
     // public
-    public float PlayedTime = 0.0f;
+    public static float PlayedTime = 0.0f;
 
     #endregion
 
@@ -22,7 +22,10 @@ public class Statistic : MonoBehaviour
 
     #region "Events"
 
-
+    void Update()
+    {
+        PlayedTime += Time.deltaTime;
+    }
 
     #endregion
 

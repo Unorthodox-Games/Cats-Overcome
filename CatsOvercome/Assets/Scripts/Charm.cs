@@ -13,6 +13,7 @@ public class Charm : Characteristic
     #region "Constructor/Init"
 
     public Charm()
+        : base()
     {
 
     }

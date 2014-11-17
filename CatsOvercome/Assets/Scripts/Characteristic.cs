@@ -6,15 +6,42 @@ public class Characteristic : MonoBehaviour
 {
 
     #region "Attributes"
+    public int _CurrentLevel = 1;
+    public int CurrentLevel
+    {
+        get
+        {
+            return _CurrentLevel;
+        }
+        set
+        {
+            _CurrentLevel = value;
+        }
+    }
 
     protected float _Experience = 0;
-    public float Experience {
-        get{
+    public float Experience 
+    {
+        get
+        {
             return this._Experience;
         }
         set
         {
             this._Experience = value;
+        }
+    }
+
+    protected float _XPNextLevel = 110;
+    public float XPNextLevel
+    {
+        get
+        {
+            return _XPNextLevel;
+        }
+        set
+        {
+            _XPNextLevel = value;
         }
     }
 
@@ -24,15 +51,15 @@ public class Characteristic : MonoBehaviour
 
     #region "Constructor/Init"
 
-    public Characteristic()
-    {
-        
-    }
-
     #endregion
 
     #region "Events"
 
+    void Update()
+    {
+        Debug.Log("XP: " + _Experience);
+        Debug.Log("Lv: " + CurrentLevel);
+    }
 
 
     #endregion
@@ -48,6 +75,9 @@ public class Characteristic : MonoBehaviour
     {
         try
         {
+            _Experience += value;
+            if (_Experience > XPNextLevel)
+                UpdateLevel();
             return true;
         }
         catch(Exception e)
@@ -56,10 +86,30 @@ public class Characteristic : MonoBehaviour
         }
     }
 
+    public bool UpdateLevel()
+    {
+        try
+        {
+            XPNextLevel = (float)Math.Pow((15 * CurrentLevel),2);
+            CurrentLevel++;
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
+
+    }
+
+
+
     /// <summary>
     ///  Update the current level using experience points
     /// </summary>
     /// <returns></returns>
+    /// 
+
+    /*
     public bool UpdateLevel()
     {
         try
@@ -79,6 +129,13 @@ public class Characteristic : MonoBehaviour
         }
         return false;
     }
+     */
+
+    /*
+     * 
+     *          Creating a new method for the moment
+     * 
+     * 
 
     public CaracteristicLevel NextStepLevel()
     {
@@ -101,6 +158,8 @@ public class Characteristic : MonoBehaviour
             return null;
         }
     }
+     * 
+     */
 
     #endregion
 }

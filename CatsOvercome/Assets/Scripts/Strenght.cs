@@ -13,6 +13,7 @@ public class Strenght : Characteristic
     #region "Constructor/Init"
 
     public Strenght()
+        : base()
     {
 
     }

@@ -33,6 +33,8 @@ public class CaracteristicLevel
         }
     }
 
+    /* _Experience and its property may be redundant since Characteristic already has "Experience" and a CharacteristicLevel */
+
     #endregion
 
     #region "Constructor/Init"

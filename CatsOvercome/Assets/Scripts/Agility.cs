@@ -12,6 +12,7 @@ public class Agility : Characteristic {
     #region "Constructor/Init"
 
     public Agility()
+        : base()
     {
 
     }
