@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DebuggingGUI : MonoBehaviour {
 
-   #region "Attributes"
+    #region "Attributes"
 
     GameObject Player;
     #endregion

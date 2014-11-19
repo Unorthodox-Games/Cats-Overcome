@@ -53,25 +53,15 @@ public class Characteristic : MonoBehaviour
 
     #region "Constructor/Init"
 
-<<<<<<< HEAD
-=======
     public Characteristic()
     {
         // set default
         this.Color = Color.black;
     }
 
->>>>>>> origin/master
     #endregion
 
     #region "Events"
-
-    void Update()
-    {
-        Debug.Log("XP: " + _Experience);
-        Debug.Log("Lv: " + CurrentLevel);
-    }
-
 
     #endregion
 

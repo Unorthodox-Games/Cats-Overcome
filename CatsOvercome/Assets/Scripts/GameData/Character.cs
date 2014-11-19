@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public class Character : MonoBehaviour, IClientStored
+public class Character : MonoBehaviour  //, IClientStored
 {
 
     #region "Attributes"
