@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{250E5C16-3079-00F8-7F4B-A9A1F9D81664}") = "CatsOvercome", "Assembly-CSharp-firstpass-vs.csproj", "{F2B09717-3CF2-D537-8EC1-E10C0DD14078}"
+EndProject
 Project("{250E5C16-3079-00F8-7F4B-A9A1F9D81664}") = "CatsOvercome", "Assembly-CSharp-vs.csproj", "{1D70984B-01B2-5998-7A7C-3F7D9A752F86}"
 EndProject
 Project("{250E5C16-3079-00F8-7F4B-A9A1F9D81664}") = "CatsOvercome", "Assembly-CSharp-Editor-vs.csproj", "{52E39850-56CC-6E40-E5C7-7B2847D4A417}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2B09717-3CF2-D537-8EC1-E10C0DD14078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B09717-3CF2-D537-8EC1-E10C0DD14078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B09717-3CF2-D537-8EC1-E10C0DD14078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B09717-3CF2-D537-8EC1-E10C0DD14078}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D70984B-01B2-5998-7A7C-3F7D9A752F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D70984B-01B2-5998-7A7C-3F7D9A752F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D70984B-01B2-5998-7A7C-3F7D9A752F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																			GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																										GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

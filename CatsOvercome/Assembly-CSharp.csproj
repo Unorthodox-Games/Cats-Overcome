@@ -198,6 +198,9 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Scripts\AI\FindNearestPath.cs" />
+     <Compile Include="Assets\Scripts\AI\StartChase.cs" />
+     <Compile Include="Assets\Scripts\AI\WaypointNode.cs" />
      <Compile Include="Assets\Scripts\Debugging\DebuggingGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\ProgressBar.cs" />
      <Compile Include="Assets\Scripts\GUI\ShowTimePlayed.cs" />
@@ -322,6 +325,12 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/UnityBeta/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F2B09717-3CF2-D537-8EC1-E10C0DD14078}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{93898DA3-72A8-B049-3594-5B973E720062}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
