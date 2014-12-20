@@ -200,6 +200,7 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\AI\FindNearestPath.cs" />
      <Compile Include="Assets\Scripts\AI\StartChase.cs" />
+     <Compile Include="Assets\Scripts\AI\WakePlayerRigidbody.cs" />
      <Compile Include="Assets\Scripts\AI\WaypointNode.cs" />
      <Compile Include="Assets\Scripts\Debugging\DebuggingGUI.cs" />
      <Compile Include="Assets\Scripts\GUI\ProgressBar.cs" />
